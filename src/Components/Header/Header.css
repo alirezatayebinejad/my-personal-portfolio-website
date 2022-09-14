@@ -1,0 +1,122 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80px;
+	padding: 10px;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.178);
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	border-radius: 16px 16px 0 0;
+	backdrop-filter: blur(4.2px);
+	-webkit-backdrop-filter: blur(4.2px);
+}
+.header__logo img {
+	width: 45px;
+	filter: grayscale(100%);
+	cursor: pointer;
+}
+.header__navbar {
+	flex: 1;
+	justify-self: center;
+}
+.header__navbar ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.header__navbar ul li {
+	padding: 10px;
+	margin-right: 5px;
+	border-radius: 10px;
+	font-weight: 500;
+	cursor: pointer;
+	color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header__navbar ul li:hover {
+	transition: 0.4s;
+	background-color: rgba(0, 0, 0, 0.103);
+}
+.header__navbar ul li img {
+	opacity: 0.65;
+	width: 20px;
+	margin-right: 2px;
+}
+.header__burgermenu img {
+	width: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.header__burgermenu--box {
+	transform: translateX(100%);
+	opacity: 0;
+	transition: 0.2s ease-out;
+
+	background-color: rgb(31, 31, 31);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 100vh;
+	width: 300px;
+	background: rgba(0, 0, 0, 0.74);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(18.3px);
+	-webkit-backdrop-filter: blur(18.3px);
+	z-index: 11;
+}
+
+.header__burgermenu--box img {
+	position: absolute;
+	right: 0;
+	padding: 0px;
+	margin: 10px 20px;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.header__burgermenu--box ul {
+	margin-top: 45px;
+}
+.header__burgermenu--box ul li {
+	list-style: none;
+	color: white;
+	padding: 20px 10px;
+	background-color: rgba(58, 58, 58, 0.315);
+	margin-top: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+.header__burgermenu--box ul li:hover {
+	background-color: rgba(70, 70, 70, 0.315);
+}
+.header__burgermenu--box p {
+	color: rgba(255, 255, 255, 0.808);
+	padding: 20px;
+}
+.header__burgermenu--box a {
+	color: white;
+}
+.header__burgermenu--box a:hover {
+	color: gray;
+}
+.header__burgermenu--box span {
+	color: red;
+}
+.header .menuIsOpen {
+	transform: translateX(0);
+	opacity: 1;
+}
+@media screen and (max-width: 550px) {
+	.header__logo {
+		display: none;
+	}
+	.header__burgermenu {
+		display: none;
+	}
+}

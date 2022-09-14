@@ -5,8 +5,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Barlow", sans-serif;
-	scrollbar-width: thin;
-	scrollbar-color: #6969dd #e0e0e0;
 }
 html {
 	scroll-behavior: smooth;
@@ -38,24 +36,19 @@ body {
 }
 
 /* app container */
-
-.app_container {
-	/* From https://css.glass */
-	background: rgba(255, 255, 255, 0.35);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(4.2px);
-	-webkit-backdrop-filter: blur(4.2px);
-
-	margin: 10px 15px;
+.app {
+	position: relative;
+	margin: auto;
+	max-width: 1400px;
 }
+
 /* scrollbar */
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
 	width: 10px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
 	background: rgba(44, 44, 44, 0.25);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -63,7 +56,7 @@ body {
 	-webkit-backdrop-filter: blur(3.7px);
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
 	border-radius: 30px;
 	background: rgba(44, 44, 44, 0.37);
 	border-radius: 16px;
@@ -72,23 +65,8 @@ body {
 	-webkit-backdrop-filter: blur(3.7px);
 }
 
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
 	background: rgba(44, 44, 44, 0.6);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(3.7px);
-	-webkit-backdrop-filter: blur(3.7px);
-}
-.count {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.damn {
-	border-radius: 16px;
-	margin: 10px;
-	padding: 50px;
-	background: rgba(255, 255, 255, 0.35);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(3.7px);
