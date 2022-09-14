@@ -1,10 +1,14 @@
 import './App.css';
+import Header from './Components/Header/Header';
+import { Home } from './Pages/Home';
 
 function App() {
 
   return (
-    <div className="App">
-      <h1><center>hello world let's create a portfolio🔥</center> </h1>
+    <div className="app">
+      <div className="app_container">
+
+      </div>
     </div>
   );
 }

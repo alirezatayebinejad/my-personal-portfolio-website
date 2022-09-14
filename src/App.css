@@ -5,10 +5,92 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Barlow", sans-serif;
+	scrollbar-width: thin;
+	scrollbar-color: #6969dd #e0e0e0;
 }
 html {
 	scroll-behavior: smooth;
+	overflow: overlay;
 }
 a {
 	text-decoration: none;
+}
+
+/* background gradient */
+
+body {
+	background: linear-gradient(-45deg, #42275a, #642b73, #c6426e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBg 25s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradientBg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* app container */
+
+.app_container {
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.35);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.2px);
+	-webkit-backdrop-filter: blur(4.2px);
+
+	margin: 10px 15px;
+}
+/* scrollbar */
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(44, 44, 44, 0.25);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.7px);
+	-webkit-backdrop-filter: blur(3.7px);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 30px;
+	background: rgba(44, 44, 44, 0.37);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.7px);
+	-webkit-backdrop-filter: blur(3.7px);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(44, 44, 44, 0.6);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.7px);
+	-webkit-backdrop-filter: blur(3.7px);
+}
+.count {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.damn {
+	border-radius: 16px;
+	margin: 10px;
+	padding: 50px;
+	background: rgba(255, 255, 255, 0.35);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(3.7px);
+	-webkit-backdrop-filter: blur(3.7px);
 }
