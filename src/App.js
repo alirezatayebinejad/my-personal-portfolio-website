@@ -6,8 +6,34 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
-      <Home />
+
+      <div className="app__container">
+        <Header />
+        <Home />
+        <Home />
+        <Home />
+        <Home />
+        <Home />
+        <Home />
+        <Home />
+
+
+        {/* for background */}
+        <div className="app__particles" >
+          <ul className="app__cubes">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div >
+      </div>
     </div>
   );
 }
