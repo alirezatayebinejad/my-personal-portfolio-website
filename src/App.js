@@ -10,13 +10,6 @@ function App() {
       <div className="app__container">
         <Header />
         <Home />
-        <Home />
-        <Home />
-        <Home />
-        <Home />
-        <Home />
-        <Home />
-
 
         {/* for background */}
         <div className="app__particles" >
