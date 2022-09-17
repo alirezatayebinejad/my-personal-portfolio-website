@@ -1,39 +1,14 @@
 import React from "react";
+import Hero from "../Components/Hero/Hero";
+import "./Home.css";
 
 export const Home = () => {
 	return (
 		<div className="home">
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
-			<p>sdfkj</p>
+			<Hero />
+			<Hero />
+			<Hero />
+			<Hero />
 		</div>
 	);
 };
