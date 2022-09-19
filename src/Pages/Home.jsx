@@ -6,9 +6,6 @@ export const Home = () => {
 	return (
 		<div className="home">
 			<Hero />
-			<Hero />
-			<Hero />
-			<Hero />
 		</div>
 	);
 };
