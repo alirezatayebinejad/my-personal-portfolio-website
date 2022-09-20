@@ -1,88 +1,29 @@
 import React from 'react'
 import "./Skills.css"
+import SkillsCard from './SkillsCard'
+
 const Skills = () => {
+    const skillsData = [
+        { imgUrl: "/Assets/skills/vscode.png", title: "VS Code" },
+        { imgUrl: "/Assets/skills/git.png", title: "Git" },
+        { imgUrl: "/Assets/skills/c++.png", title: "C++" },
+        { imgUrl: "/Assets/skills/html.png", title: "HTML" },
+        { imgUrl: "/Assets/skills/css.png", title: "CSS" },
+        { imgUrl: "/Assets/skills/javascript.png", title: "Javascript" },
+        { imgUrl: "/Assets/skills/react.png", title: "React" },
+        { imgUrl: "/Assets/skills/redux.png", title: "Redux" },
+        { imgUrl: "/Assets/skills/materialui.png", title: "Material UI" },
+        { imgUrl: "/Assets/skills/styledcomponents.png", title: "Styled Components" },
+        { imgUrl: "/Assets/skills/bootstrap.png", title: "Bootstrap" },
+        { imgUrl: "/Assets/skills/firebase.png", title: "Firebase" },
+        { imgUrl: "/Assets/skills/wordpress.png", title: "Wordpress" },
+    ]
     return (
         <div className='skills'>
             <h1 className="skills__header">Tech Skills</h1>
             <div className="skills__items">
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/vscode.png" alt="VSCode logo" />
-                    </div>
-                    <div className='item__info'>VS Code</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/git.png" alt="Git logo" />
-                    </div>
-                    <div className='item__info'>Git</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/c++.png" alt="C++ logo" />
-                    </div>
-                    <div className='item__info'>C++</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/html.png" alt="HTML logo" />
-                    </div>
-                    <div className='item__info'>HTML</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/css.png" alt="CSS logo" />
-                    </div>
-                    <div className='item__info'>CSS</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/javascript.png" alt="Javascript logo" />
-                    </div>
-                    <div className='item__info'>Javascript</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/react.png" alt="React logo" />
-                    </div>
-                    <div className='item__info'>React</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/redux.png" alt="Redux logo" />
-                    </div>
-                    <div className='item__info'>Redux</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/materialui.png" alt="Material UI logo" />
-                    </div>
-                    <div className='item__info'>Material UI</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/styledcomponents.png" alt="Styled Components logo" />
-                    </div>
-                    <div className='item__info'>Styled Components</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/bootstrap.png" alt="Bootstrap logo" />
-                    </div>
-                    <div className='item__info'>Bootstrap</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/firebase.png" alt="firebase logo" />
-                    </div>
-                    <div className='item__info'>Firebase</div>
-                </div>
-                <div className='items__item'>
-                    <div className='item__icon'>
-                        <img src="/Assets/skills/wordpress.png" alt="Wordpress logo" />
-                    </div>
-                    <div className='item__info'>Wordpress</div>
-                </div>
+
+                {skillsData.map((skill) => <SkillsCard {...skill} key={skill.title} />)}
 
             </div>
         </div>
