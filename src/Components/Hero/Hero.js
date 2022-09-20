@@ -15,17 +15,17 @@ const Hero = () => {
 							<img src="/Assets/icons/github.png" alt="github icon" />
 							github
 						</a>
-						<a href="www.linkedin.com/in/alireza-tayebinejad">
+						<a href="https://www.linkedin.com/in/alireza-tayebinejad">
 							<img src="/Assets/icons/linkedin.png" alt="linkedin icon" />
 							linkedin
 						</a>
 					</div>
 					<div>
-						<a href="mailto:alirezatayebinejad@gmail.com">
+						<a href="https://mailto:alirezatayebinejad@gmail.com">
 							<img src="/Assets/icons/gmail.png" alt="gmail icon" />
 							gmail
 						</a>
-						<a href="">
+						<a href="https://wa.me/989019280211">
 							<img src="/Assets/icons/whatsapp.png" alt="whatsapp icon" />
 							whatsapp
 						</a>

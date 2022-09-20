@@ -70,7 +70,7 @@
 	clip-path: polygon(70% 0, 100% 60%, 41% 100%, 0 66%, 0 27%);
 	transform: scale(1.1);
 }
-.hero__image img:hover {
+.hero__image:hover img {
 	clip-path: polygon(70% 0, 100% 60%, 41% 100%, 0 66%, 0 27%);
 	transform: scale(1.07);
 }
