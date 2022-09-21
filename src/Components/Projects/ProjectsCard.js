@@ -16,7 +16,6 @@ const ProjectsCard = ({ imgUrl, altText, title, information }) => {
                 openModal &&
                 <Modal setOpenModal={setOpenModal}>
                     {/* all styles in Components/Modal/Modal.css */}
-                    <img className="modal__closebtn" src="/Assets/icons/close.png" onClick={() => setOpenModal(false)}></img>
                     <img className="Modal__image" src={imgUrl} alt={altText} />
                     <h2 className="modal__title">{title}</h2>
                     <p><b>base techs used:</b> {information.tools}</p>

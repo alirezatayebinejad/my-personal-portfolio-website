@@ -40,37 +40,3 @@
 	text-align: center;
 	margin-bottom: 15px;
 }
-
-/* for modals in Components/Projects/projectCard */
-
-.Modal__image {
-	width: 100%;
-	border-radius: 15px;
-	margin-bottom: 10px;
-}
-.Modal__btns {
-	text-align: center;
-	margin-top: 20px;
-}
-.Modal__btns button {
-	padding: 10px;
-	width: 46%;
-	margin: 4px;
-	border: none;
-}
-
-.Modal__btns button {
-	background: linear-gradient(-45deg, #4e54c8, #23a6d5);
-	border-radius: 10px;
-	color: white;
-	cursor: pointer;
-}
-.Modal__btns button:hover {
-	background: linear-gradient(-45deg, #393faa, #1283ac);
-}
-.Modal__btns a:nth-child(1) button {
-	background: linear-gradient(-45deg, #c84ea9, #5223d5);
-}
-.Modal__btns a:nth-child(1) button:hover {
-	background: linear-gradient(-45deg, #ad3e92, #441ab8);
-}

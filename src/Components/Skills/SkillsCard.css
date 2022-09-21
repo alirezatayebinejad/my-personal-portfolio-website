@@ -8,6 +8,7 @@
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
 	position: relative;
+	z-index: 1;
 }
 .item__icon {
 	background: rgba(255, 255, 255, 0.377);
@@ -21,6 +22,7 @@
 	width: 100px;
 	height: 100px;
 	padding: 5px;
+	border-radius: 20px;
 }
 .items__item:hover .item__icon {
 	transform: translateY(-30px);
