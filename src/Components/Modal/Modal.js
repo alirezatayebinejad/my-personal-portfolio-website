@@ -1,5 +1,5 @@
 import "./Modal.css"
-import React, { useState } from 'react'
+import React from 'react'
 
 const Modal = ({ children, setOpenModal }) => {
 
@@ -7,7 +7,7 @@ const Modal = ({ children, setOpenModal }) => {
         <div className="modal">
             <div className="modal__back" onClick={() => setOpenModal(false)}></div>
             <div className="modal__content">
-                <img className="modal__closebtn" src="/Assets/icons/close.png" onClick={() => setOpenModal(false)}></img>
+                <img className="modal__closebtn" src="/Assets/icons/close.png" alt="close icon" onClick={() => setOpenModal(false)}></img>
                 {children}
             </div>
         </div >

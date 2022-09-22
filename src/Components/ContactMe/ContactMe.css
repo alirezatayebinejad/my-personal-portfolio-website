@@ -1,0 +1,78 @@
+.contactme {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.projects__header {
+	margin-bottom: 50px;
+}
+
+.contactme__form {
+	max-width: 600px;
+	background: #f9f9f9;
+	padding: 25px;
+	margin: 10px;
+	background: rgba(255, 255, 255, 0.35);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.17);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border-radius: 20px;
+}
+
+.contactme__form h3 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.contactme__form input[type="text"],
+.contactme__form input[type="email"],
+.contactme__form textarea {
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	margin: 0 0 5px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.404);
+}
+
+.contactme__form input[type="text"]:hover,
+.contactme__form input[type="email"]:hover,
+.contactme__form textarea:hover {
+	background-color: rgba(255, 255, 255, 0.507);
+}
+
+.contactme__form textarea {
+	height: 100px;
+	max-width: 100%;
+	resize: none;
+}
+
+.contactme__form button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	background: linear-gradient(-45deg, #c44ec8, #6123d5);
+	color: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.contactme__form button[type="submit"]:hover {
+	background: linear-gradient(-45deg, #ab3faf, #531abb);
+
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.contactme__form input:focus,
+.contactme__form textarea:focus {
+	outline: 0;
+}

@@ -21,8 +21,8 @@ const ProjectsCard = ({ imgUrl, altText, title, information }) => {
                     <p><b>base techs used:</b> {information.tools}</p>
                     <p><b>info:</b> {information.info}</p>
                     <div className="Modal__btns">
-                        <a href={information.demoUrl} target="_blank"><button>see demo website</button></a>
-                        <a href={information.githubUrl} target="_blank"><button>checkout source code</button></a>
+                        <a href={information.demoUrl} target="_blank" rel="noreferrer noopener"><button>see demo website</button></a>
+                        <a href={information.githubUrl} target="_blank" rel="noreferrer noopener"><button>checkout source code</button></a>
                     </div>
                 </Modal>
             }
