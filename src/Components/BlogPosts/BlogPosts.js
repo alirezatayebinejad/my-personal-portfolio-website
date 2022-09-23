@@ -9,7 +9,7 @@ const BlogPosts = () => {
         { id: "3", title: "the second title " },
     ]
     return (
-        <div className="blogposts">
+        <div className="blogposts" id="blogposts1">
             <h1 className="blogposts__header">Blog Posts</h1>
             <div className="blogposts__items">
                 {postsData.map(post => {

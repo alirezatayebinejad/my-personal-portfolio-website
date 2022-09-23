@@ -30,7 +30,7 @@ const ContactMe = () => {
 
     return (
         <>
-            <div className="contactme">
+            <div className="contactme" id="contactme1">
                 <h1 className="projects__header">Contact me</h1>
 
                 <form className="contactme__form" ref={form} action="" onSubmit={sendEmail} name="contactme">

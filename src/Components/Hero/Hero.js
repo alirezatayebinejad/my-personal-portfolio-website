@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = () => {
 	return (
-		<div className="hero">
+		<div className="hero" id="hero1">
 			<div className="hero__info">
 				<h2>hi, I'm</h2>
 				<h1>Alireza Tayebinejad</h1>

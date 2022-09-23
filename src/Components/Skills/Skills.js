@@ -19,7 +19,7 @@ const Skills = () => {
         { imgUrl: "/Assets/skills/wordpress.png", title: "Wordpress" },
     ]
     return (
-        <div className='skills'>
+        <div className='skills' id='skills1'>
             <h1 className="skills__header">Tech Skills</h1>
             <div className="skills__items">
 

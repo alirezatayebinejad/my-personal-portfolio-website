@@ -12,25 +12,36 @@ function Header() {
 			<div className={`header__burgermenu--box ${isMenuOpen ? "menuIsOpen" : ""}`}>
 				<img className="header__burgermenu__icon" src="/Assets/icons/closeBtn.png" alt="close button icon" onClick={() => setIsMenuOpen(false)} />
 				<ul>
-					<li>
-						<img src="/Assets/icons/home.png" alt="" /> Home
-					</li>
-					<li>
-						<img src="/Assets/icons/skills.png" alt="" />
-						Skills
-					</li>
-					<li>
-						<img src="/Assets/icons/projects.png" alt="" />
-						Projects
-					</li>
-					<li>
-						<img src="/Assets/icons/blog.png" alt="" />
-						Blog
-					</li>
-					<li>
-						<img src="/Assets/icons/contactme.png" alt="" />
-						Contact me
-					</li>
+					<a href="#hero1">
+						<li>
+							<img src="/Assets/icons/home.png" alt="" />
+							Home
+						</li>
+					</a>
+					<a href="#skills1">
+						<li>
+							<img src="/Assets/icons/skills.png" alt="" />
+							Skills
+						</li>
+					</a>
+					<a href="#projects1">
+						<li>
+							<img src="/Assets/icons/projects.png" alt="" />
+							Projects
+						</li>
+					</a>
+					<a href="#blogposts1">
+						<li>
+							<img src="/Assets/icons/blog.png" alt="" />
+							Blog
+						</li>
+					</a>
+					<a href="#contactme1">
+						<li>
+							<img src="/Assets/icons/contactme.png" alt="" />
+							Contact me
+						</li>
+					</a>
 				</ul>
 				<p>
 					this website is created with <span>❤</span> by Alireza Tayebinejad from <a href="https://www.github.com/vibracode">@vibracode</a>
@@ -38,31 +49,41 @@ function Header() {
 			</div>
 			<nav className="header__navbar">
 				<ul>
-					<li>
-						<img src="/Assets/icons/home.png" alt="" /> Home
-					</li>
-					<li>
-						<img src="/Assets/icons/skills.png" alt="" />
-						Skills
-					</li>
-					<li>
-						<img src="/Assets/icons/projects.png" alt="" />
-						Projects
-					</li>
-					<li>
-						<img src="/Assets/icons/blog.png" alt="" />
-						Blog
-					</li>
-					<li>
-						<img src="/Assets/icons/contactme.png" alt="" />
-						Contact me
-					</li>
-				</ul>
+					<a href="#hero1">
+						<li>
+							<img src="/Assets/icons/home.png" alt="" />
+							Home
+						</li>
+					</a>
+					<a href="#skills1">
+						<li>
+							<img src="/Assets/icons/skills.png" alt="" />
+							Skills
+						</li>
+					</a>
+					<a href="#projects1">
+						<li>
+							<img src="/Assets/icons/projects.png" alt="" />
+							Projects
+						</li>
+					</a>
+					<a href="#blogposts1">
+						<li>
+							<img src="/Assets/icons/blog.png" alt="" />
+							Blog
+						</li>
+					</a>
+					<a href="#contactme1">
+						<li>
+							<img src="/Assets/icons/contactme.png" alt="" />
+							Contact me
+						</li>
+					</a>				</ul>
 			</nav>
 			<div className="header__logo">
 				<img src="/Assets/brand/logo192.png" alt="vibracode logo" />
 			</div>
-		</div>
+		</div >
 	);
 }
 
