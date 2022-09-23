@@ -1,4 +1,5 @@
 import React from "react";
+import BlogPosts from "../Components/BlogPosts/BlogPosts";
 import ContactMe from "../Components/ContactMe/ContactMe";
 import Hero from "../Components/Hero/Hero";
 import Projects from "../Components/Projects/Projects";
@@ -11,6 +12,7 @@ export const Home = () => {
 			<Hero />
 			<Skills />
 			<Projects />
+			<BlogPosts />
 			<ContactMe />
 		</div>
 	);
