@@ -1,12 +1,22 @@
 import "./BlogCard.css"
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from "../Modal/Modal";
 
-const BlogCard = ({ id, title }) => {
+const BlogCard = ({ id, imgSrc, title, content }) => {
+    const [openModal, setOpenModal] = useState(false);
+
     return (
-        <div className="blogcard" >
-            <img src="/Assets/projects/7.weatherapp.png" alt="" />
-            <h2>{title}</h2>
-        </div>
+        <>
+            <div className="blogcard" onClick={() => setOpenModal(true)}>
+                <img src={imgSrc} alt="" />
+                <h2>{title}</h2>
+            </div>
+            {openModal &&
+                <Modal setOpenModal={setOpenModal}>
+                    {/* all styles in Components/Modal/Modal.css */}
+                    {content()}
+                </Modal>}
+        </>
     )
 }
 

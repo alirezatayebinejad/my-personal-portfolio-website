@@ -33,4 +33,5 @@
 	-webkit-backdrop-filter: blur(3px);
 	transition: 0.3s;
 	max-width: 280px;
+	font-size: 20px;
 }
