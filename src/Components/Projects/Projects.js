@@ -12,7 +12,7 @@ const Projects = () => {
         },
         {
             imgUrl: "/Assets/projects/12.youtube.png", altText: "Youtube website", title: "Youtube website clone", information: {
-                tools: "css(with css grids) - React - MUI icons", info: "this is a home page frontend of youtube", githubUrl: "https://github.com/vibracode/youtube-clone", demoUrl: "https://youtube-clone-one-topaz.vercel.app/"
+                tools: "css(with css grids) - React - MUI icons", info: "this is a home page frontend of youtube", githubUrl: "https://github.com/vibracode/youtube-clone", demoUrl: "https://gregarious-sfogliatella-13a271.netlify.app/   "
             }
         },
         {
@@ -22,7 +22,7 @@ const Projects = () => {
         },
         {
             imgUrl: "/Assets/projects/10.whatsappclone.png", altText: "Whatsapp web", title: "Whatsapp web clone", information: {
-                tools: "css(Styeld Components) - React - Next.js(with serverside rendering) - firebase - MUI icons", info: "firebase Google autentication sign in and 1-1 messaging with other peoples signed in with gmail. Note:use VPN if firebase not working in your country", githubUrl: "https://github.com/vibracode/whatsapp-clone", demoUrl: "https://whatsapp-clone-lovat.vercel.app/"
+                tools: "css(Styeld Components) - React - Next.js(with serverside rendering) - firebase - MUI icons", info: "firebase Google autentication sign in and 1-1 messaging with other peoples signed in with gmail. Note:use VPN if firebase not working in your country", githubUrl: "https://github.com/vibracode/whatsapp-clone", demoUrl: "https://dashing-quokka-5c26f7.netlify.app"
             }
         },
         {
@@ -47,7 +47,7 @@ const Projects = () => {
         },
         {
             imgUrl: "/Assets/projects/5.makeortakeaquiz.png", altText: "Make Or Take a Quiz", title: "Make or Take a Quiz", information: {
-                tools: "HTML - CSS - Javascript", info: "you can create a quiz and add it to quizes and also take a time limited quiz and see your grade, it uses localstorage because no backend available.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/4.%20quiz%20maker%20(OOP)", demoUrl: "https://quizmaker-mu.vercel.app/"
+                tools: "HTML - CSS - Javascript", info: "you can create a quiz and add it to quizes and also take a time limited quiz and see your grade, it uses localstorage because no backend available.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/4.%20quiz%20maker%20(OOP)", demoUrl: "https://vermillion-melba-c9a0b0.netlify.app"
             }
         },
         {
@@ -57,12 +57,12 @@ const Projects = () => {
         },
         {
             imgUrl: "/Assets/projects/3.calculator.png", altText: "calculator app", title: "calculator app", information: {
-                tools: "HTML - CSS - Javascript", info: "this calculater works with multiple operations in a row and keyboard functionality is available.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/2.%20calculator", demoUrl: "https://calculator-tau-nine.vercel.app/"
+                tools: "HTML - CSS - Javascript", info: "this calculater works with multiple operations in a row and keyboard functionality is available.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/2.%20calculator", demoUrl: "https://verdant-torrone-02c393.netlify.app"
             }
         },
         {
             imgUrl: "/Assets/projects/2.passwordgenerator.png", altText: "Password Generator", title: "Password Generator", information: {
-                tools: "HTML - CSS - Javascript", info: "I wrote a vanilla javascript algorithm to generate optional password.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/1.%20password%20generator", demoUrl: "https://password-generator-ten-dun.vercel.app/"
+                tools: "HTML - CSS - Javascript", info: "I wrote a vanilla javascript algorithm to generate optional password.", githubUrl: "https://github.com/vibracode/8-vanilla-javascript-projects/tree/master/1.%20password%20generator", demoUrl: "https://stately-kelpie-b43fc0.netlify.app"
             }
         },
         {
