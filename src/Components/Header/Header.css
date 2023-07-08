@@ -9,12 +9,11 @@
 	top: 0;
 	z-index: 10;
 	backdrop-filter: blur(8.2px);
-	-webkit-backdrop-filter: blur(8.2px);
 }
 .header__logo img {
 	width: 45px;
-	filter: grayscale(100%);
 	cursor: pointer;
+	opacity: 0.2;
 }
 
 .header__navbar {
@@ -76,8 +75,6 @@
 	width: 300px;
 	background: rgba(0, 0, 0, 0.74);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(18.3px);
-	-webkit-backdrop-filter: blur(18.3px);
 	z-index: 11;
 }
 .header__burgermenu--box ul {
@@ -99,8 +96,8 @@
 .header__burgermenu--box ul li img {
 	width: 20px;
 	margin-right: 10px;
-	color: white;
-	filter: contrast(0%);
+	background-color: white;
+	border-radius: 5px;
 }
 .header__burgermenu--box p {
 	color: rgba(255, 255, 255, 0.808);
