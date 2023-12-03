@@ -6,8 +6,28 @@ const Projects = () => {
 
     const projectsData = [
         {
+            imgUrl: "/Assets/projects/payment.png", altText: "payment", title: "crypto payment", information: {
+                tools: "Css modules - React - React Router", info: "responsive crypto payment ui", githubUrl: "https://github.com/alirezatayebinejad/payment", demoUrl: "https://payment-nine-green.vercel.app/"
+            }
+        },
+        {
+            imgUrl: "/Assets/projects/fabricmod.png", altText: "fabricmod", title: "fabricmod shop", information: {
+                tools: "next js - ssr - mui - css modules - react query - ", info: "fullstack ecommerce with next js and laravel. my role: next js with technical seo optimization", githubUrl: "https://github.com/alirezatayebinejad/quantfinance_new", demoUrl: "https://quantfinance-new.vercel.app/"
+            }
+        },
+        {
+            imgUrl: "/Assets/projects/mosimod.png", altText: "mosimod shop", title: "mosimod shop", information: {
+                tools: "next js - ssr - mysql - prisma", info: "next js fullstack ecommerce app with admin dashboard", githubUrl: "https://github.com/alirezatayebinejad/mosimod-shop", demoUrl: "https://alirezatn.vercel.app/mosimod.mkv"
+            }
+        },
+        {
+            imgUrl: "/Assets/projects/quantfinance.png", altText: "quant finance", title: "quantfinance website", information: {
+                tools: "Css modules - React - React Router - react-awsome-reveal", info: "fully responsived landing page with animations and dashboard panel", githubUrl: "https://github.com/alirezatayebinejad/quantfinance_new", demoUrl: "https://quantfinance-new.vercel.app/"
+            }
+        },
+        {
             imgUrl: "/Assets/projects/13.amazon.png", altText: "Amazon website", title: "Amazon website clone", information: {
-                tools: "Css - React - React Router - firebase - MUI icons", info: "signup singin Authentication, add to basket functionality", githubUrl: "https://github.com/alirezatayebinejad/amazon-clone", demoUrl: "https://amazon-clone-ruddy-three.vercel.app/"
+                tools: "Css - React - React Router - firebase - MUI icons", info: "signup singin Authentication, add to basket functionality", githubUrl: "https://github.com/alirezatayebinejad/payment", demoUrl: "https://amazon-clone-ruddy-three.vercel.app/"
             }
         },
         {
